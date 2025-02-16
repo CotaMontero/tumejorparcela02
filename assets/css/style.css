@@ -136,7 +136,7 @@ border-radius:50px
 .hero {
 width:100%;
 height:90vh;
-background-image:url(../img/hero/hero_parcela.png);
+background-image:url(../img/hero/hero_parcela.webp);
 background-size:cover;
 background-position:center;
 background-repeat:no-repeat;
@@ -158,7 +158,7 @@ text-shadow:2px 2px 4px rgba(0,0,0,0.5)
 .quienes-somos {
 width:100%;
 height:60vh;
-background-image:url(../img/hero/hero-quienes-somos.png);
+background-image:url(../img/hero/hero-quienes-somos.webp);
 background-size:cover;
 background-position:center;
 background-repeat:no-repeat;
@@ -180,7 +180,7 @@ text-shadow:2px 2px 4px rgba(0,0,0,0.5)
 .proyects {
 width:100%;
 height:60vh;
-background-image:url(../img/hero/hero_proyectos2.png);
+background-image:url(../img/hero/hero_proyectos2.webp);
 background-size:cover;
 background-position:center;
 background-repeat:no-repeat;
@@ -599,7 +599,7 @@ color:#fff
 }
 
 .contacto {
-background-image:url(../img/banners/home_contacto.png);
+background-image:url(../img/contact/home_contacto.webp);
 background-size:cover;
 background-position:center;
 padding:60px 20px;
