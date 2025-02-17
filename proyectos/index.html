@@ -7,7 +7,11 @@
     <meta content="" name="keywords">
     <meta content="" name="description">
     <!-- Favicon -->
-    <link href="../assets/icons/parcela_icon.png" rel="icon">
+    <link href="../assets/icons/parcela_icon.svg" rel="icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../assets/css/style.css">
     
 </head>
@@ -16,7 +20,7 @@
     <nav class="navbar">
         <div class="logo">
             <a href="../index.html">
-            <img src="../assets/img/banners/Logo.svg" alt="Logo">
+            <img src="../assets/icons/logo.svg" alt="Logo">
             </a>
         </div>
         
@@ -186,7 +190,7 @@
                             <h3>REGIÓN DE VALPARAÍSO</h3>
                             <h2>Vistas<br> Quillayes</h2>
                             <p>Parcelas a 1 hora de Santiago, con privilegiada flora y fauna que rodea el sector, maravillosas vistas y excelentes accesos. </p>
-                            <a href="" class="btn-proximos">PRÓXIMAMENTE</a>
+                            <a href="" class="btn-proximos btn-proximos-left">PRÓXIMAMENTE</a>
                         </div>      <!-- Modal that appears on hover or click -->
                         <div class="overlay-proximo">
                             <div class="modal-content-left">
@@ -243,22 +247,9 @@
             <div class="contacto-title">
                 <h2>Empieza hoy el camino <br>hacia tu lugar ideal, contáctanos.</h2>
             </div>
-            <div class="contacto-content">
-                <form class="contacto-form">
-                    <div class="form-group">
-                        <input type="text" placeholder="Nombre completo" class="input-icon user" required>
-                    </div>
-                    <div class="form-group">
-                        <input type="email" placeholder="Email" class="input-icon email" required>
-                    </div>
-                    <div class="form-group">
-                        <input type="tel" placeholder="Número de celular" class="input-icon phone" required>
-                    </div>
-                    <div class="form-group">
-                        <textarea placeholder="Mensaje" rows="4" class="input-icon message" required></textarea>
-                    </div>
-                    <button type="submit" class="btn-submit">Enviar</button>
-                </form>
+            <div id="form-contacto">
+                <div style="width:100%;height:500px;" data-fillout-id="1x6xWwqJ6Xus" data-fillout-embed-type="standard" data-fillout-inherit-parameters data-fillout-dynamic-resize></div>
+                <script src="https://server.fillout.com/embed/v1/"></script>
             </div>
         </div>
     </section>

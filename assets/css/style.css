@@ -1,13 +1,10 @@
-@import "https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap";
-
-@import "https://fonts.googleapis.com/css2?family=Ubuntu&display=swap";
-
 @font-face {
 font-family:'dream_orphansregular';
 src:url(../fonts/dream_orphans-webfont.woff2) format("woff2"),url(../fonts/dream_orphans-webfont.woff) format("woff");
 font-weight:400;
 font-style:normal;
 letter-spacing:4%;
+font-display: swap;
 }
 
 * {
@@ -587,6 +584,19 @@ margin-bottom: 2rem;
 }
 }
 
+.btn-proximos-left {
+    align-self: flex-start; 
+    margin-left: 0; 
+    margin-right: auto; 
+}
+
+@media (max-width: 480px) {
+    .btn-proximos-left {
+        padding:.6rem 5px; 
+        margin-bottom: 2rem;
+        text-align:center;
+    }
+}
 footer {
 text-align:center;
 padding:30px;
@@ -630,75 +640,21 @@ line-height:1.2;
 max-width:600px
 }
 
-.contacto-content {
-flex:1;
-max-width:500px;
-background:#fff;
-padding:40px;
-border-radius:20px;
-box-shadow:0 4px 10px rgba(0,0,0,0.1)
-}
+#form-contacto {
+    width: 100%;
+    max-width:500px;
+    margin: 0 auto;
+    padding:40px;
+    border-radius:20px;
+    
+    }
 
-.contacto-form {
-display:flex;
-flex-direction:column;
-gap:20px
-}
-
-.form-group {
-position:relative
-}
-
-.input-icon {
-width:100%;
-padding:10px 15px 10px 40px;
-border:1px solid #ddd;
-border-radius:25px;
-font-size:1em;
-outline:none;
-transition:border-color .3s ease;
-background-repeat:no-repeat;
-background-position:10px center;
-background-size:20px
-}
-
-.input-icon:focus {
-border-color:#00747A
-}
-
-.input-icon.user {
-background-image:url(../icons/user.svg)
-}
-
-.input-icon.email {
-background-image:url(../icons/email.svg)
-}
-
-.input-icon.phone {
-background-image:url(../icons/phone.svg)
-}
-
-.input-icon.message {
-padding-left:15px;
-background-position:10px 10px
-}
-
-.btn-submit {
-width:100%;
-padding:15px;
-border:none;
-border-radius:25px;
-background:#00747A;
-color:#fff;
-font-size:1em;
-font-weight:400;
-cursor:pointer;
-transition:background-color .3s ease
-}
-
-.btn-submit:hover {
-background:#00929a
-}
+    @media (max-width: 600px) {
+    #form-contacto {
+        max-width:100%;
+        padding:20px
+        }
+    }
 
 @media (max-width: 968px) {
 .contacto-container {
@@ -714,12 +670,9 @@ padding-left:0
 font-size:2.5em;
 margin:0 auto
 }
+}
 
-.contacto-content {
-max-width:100%;
-padding:20px
-}
-}
+
 
 .gallery {
 padding:4rem 2rem;
@@ -1249,11 +1202,13 @@ background-color:#fff
 display:flex;
 gap:4rem;
 max-width:1200px;
-margin:0 auto
+margin:0 auto;
+margin-bottom: 2rem;
 }
 
 .description-text {
-flex:1
+flex:1;
+
 }
 
 .description-text p {
@@ -1265,7 +1220,8 @@ margin-bottom:2rem
 
 .features-list {
 list-style:none;
-padding:0
+padding:0;
+
 }
 
 .features-list li {
